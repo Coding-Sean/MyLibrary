@@ -123,6 +123,7 @@ Screen Resolution: 1920x1080 or higher
 __________________________________________________________________________________________________________________________________________________
 
 🚀 Installation
+
 Step 1: Download and Extract
 # Clone the repository or download ZIP
 git clone https://github.com/yourusername/MyLibrary.git
@@ -131,10 +132,15 @@ git clone https://github.com/yourusername/MyLibrary.git
 C:\xampp\htdocs\MyLibrary
 
 Step 2: Install XAMPP
+
 Download XAMPP from https://www.apachefriends.org
+
 Install with default settings
+
 Start Apache and MySQL modules from XAMPP Control Panel
+
 Step 3: Verify Installation
+
 Open browser and navigate to:
 
 http://localhost/MyLibrary
