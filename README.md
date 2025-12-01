@@ -31,6 +31,7 @@ ________________________________________________________________________________
 ✨ Features
 **Core Functionality**
 ✅ User Authentication - Secure login/signup with password hashing
+
 ✅ Role-Based Access Control - Four distinct user roles with specific permissions
 ✅ Book Management - Complete CRUD operations for library inventory
 ✅ Borrowing System - Track book checkouts and returns
