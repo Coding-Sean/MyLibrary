@@ -125,95 +125,9 @@ ________________________________________________________________________________
 🚀 Installation
 
 Step 1: Download and Extract
+```bash
 # Clone the repository or download ZIP
 git clone https://github.com/yourusername/MyLibrary.git
 
 # OR extract downloaded ZIP to
 C:\xampp\htdocs\MyLibrary
-
-Step 2: Install XAMPP
-
-Download XAMPP from https://www.apachefriends.org
-
-Install with default settings
-
-Start Apache and MySQL modules from XAMPP Control Panel
-
-Step 3: Verify Installation
-
-Open browser and navigate to:
-
-http://localhost/MyLibrary
-
-__________________________________________________________________________________________________________________________________________________
-   📁 Project Structure
-
-   MyLibrary/
-│
-├── assets/                      # CSS Stylesheets
-│   ├── login.css               # Login page styles
-│   ├── signup.css              # Signup page styles
-│   ├── librarian.css           # Librarian dashboard styles
-│   ├── staff.css               # Staff dashboard styles
-│   └── stud_teacher.css        # Student/Teacher dashboard styles
-│
-├── config/                      # Configuration Files
-│   └── database.php            # Database connection settings
-│
-├── controller/                  # Request Handlers (Controllers)
-│   ├── BaseController.php      # Parent controller (inheritance)
-│   ├── LoginController.php     # Login authentication
-│   ├── SignupController.php    # User registration
-│   ├── LogoutController.php    # Session termination
-│   ├── LibrarianController.php # Book CRUD operations
-│   ├── StaffController.php     # Borrowing/Return/Penalty
-│   └── ReservationController.php # Reservation handling
-│
-├── database/                    # Database Scripts
-│   └── db_schema.sql           # Database schema and structure
-│
-├── includes/                    # Reusable Components
-│   ├── messages.php            # Custom alert messages
-│   └── confirm_modal.php       # Custom confirmation dialogs
-│
-├── model/                       # Business Logic (Models)
-│   ├── BaseModel.php           # Parent model (inheritance)
-│   ├── User.php                # User authentication model
-│   ├── LibrarianModel.php      # Book management model
-│   ├── StaffModel.php          # Staff operations model
-│   └── StudentTeacherModel.php # Student/Teacher operations model
-│
-├── view/                        # User Interfaces (Views)
-│   ├── Log_In.php              # Login page
-│   ├── Sign_Up.php             # Registration page
-│   ├── Librarian_Dashboard.php # Librarian interface
-│   ├── Staff_Dashboard.php     # Staff interface
-│   ├── Teach_Stud_Dashboard.php # Student/Teacher interface
-│   └── Librarian_Functions/
-│       ├── Add_Book.php        # Add book form
-│       └── Edit_Book.php       # Edit book form
-│
-├── index.php                    # Entry point (redirects to login)
-└── README.md                    # This file
-
-Architecture Pattern
-
-┌─────────────────────────────────────────────────────────┐
-│                    MVC ARCHITECTURE                     │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  ┌─────────┐      ┌────────────┐      ┌───────────┐   │
-│  │  VIEW   │ ───▶ │ CONTROLLER │ ───▶ │   MODEL   │   │
-│  │  (UI)   │ ◀─── │  (Logic)   │ ◀─── │   (Data)  │   │
-│  └─────────┘      └────────────┘      └───────────┘   │
-│                                              │         │
-│                                              ▼         │
-│                                        ┌──────────┐    │
-│                                        │ DATABASE │    │
-│                                        └──────────┘    │
-└─────────────────────────────────────────────────────────┘
-
-
-
-
-
