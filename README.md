@@ -498,10 +498,11 @@ This project is licensed under the MIT License.
 ---
 
 ## 📞 Contact
-
+**Name:** Jansean Libera
+**Course, Year & Section:** BSIS 3-B
 **Developer:** Coding-Sean  
 **Repository:** [https://github.com/Coding-Sean/MyLibrary](https://github.com/Coding-Sean/MyLibrary)  
-**Email:** [Your Email]
+**Email:** liberajansean34@gmail.com
 
 ---
 
