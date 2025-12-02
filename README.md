@@ -441,43 +441,6 @@ $penaltyAmount = $daysLate * 10; // ₱10 per day
 
 ---
 
-## 📊 Evaluation Criteria Checklist
-
-### ✅ Functionality & Accuracy (30 points)
-- [x] Role-based access control implemented
-- [x] Student borrowing limit (3 books)
-- [x] Teacher unlimited borrowing
-- [x] Librarian CRUD operations
-- [x] Staff facilitation features
-- [x] Penalty calculation system
-- [x] Clearance processing
-
-### ✅ User Interface & UX (20 points)
-- [x] Clean, modern design
-- [x] Intuitive navigation
-- [x] Responsive layout
-- [x] Custom styled components
-- [x] Role-specific dashboards
-
-### ✅ Code Quality & Structure (20 points)
-- [x] MVC architecture
-- [x] OOP principles applied
-- [x] Code comments and documentation
-- [x] Organized file structure
-- [x] Reusable components
-
-### ✅ Documentation (10 points)
-- [x] Comprehensive README
-- [x] Installation instructions
-- [x] User guides for each role
-- [x] System architecture explanation
-
-### ✅ Presentation & Demo (20 points)
-- [x] All features functional
-- [x] Professional walkthrough available
-- [x] Clear demonstration of logic
-
----
 
 ## 🤝 Contributing
 
@@ -499,7 +462,9 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact
 **Name:** Jansean Libera
+
 **Course, Year & Section:** BSIS 3-B
+
 **Developer:** Coding-Sean  
 **Repository:** [https://github.com/Coding-Sean/MyLibrary](https://github.com/Coding-Sean/MyLibrary)  
 **Email:** liberajansean34@gmail.com
