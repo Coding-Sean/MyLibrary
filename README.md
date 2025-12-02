@@ -1,15 +1,15 @@
 📚 MyLibrary - Library Management System
-<img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version">
+<img src="https://img.shields. io/badge/version-1.0.0-blue.svg" alt="Version">
 
-<img src="https://img.shields.io/badge/PHP-8.0+-purple.svg" alt="PHP">
+<img src="https://img.shields. io/badge/PHP-8. 0+-purple.svg" alt="PHP">
 
-<img src="https://img.shields.io/badge/MySQL-8.0+-orange.svg" alt="MySQL">
+<img src="https://img. shields.io/badge/MySQL-8.0+-orange.svg" alt="MySQL">
 
-<img src="https://img.shields.io/badge/Bootstrap-5.3.3-purple.svg" alt="Bootstrap">
+<img src="https://img. shields.io/badge/Bootstrap-5.3. 3-purple.svg" alt="Bootstrap">
 
-<img src="https://img.shields.io/badge/license-MIT-green.svg" alt="License">
+<img src="https://img. shields.io/badge/license-MIT-green.svg" alt="License">
 
-A comprehensive web-based library management system built with PHP, MySQL, and Bootstrap. Designed for educational institutions to manage books, borrowers, reservations, and penalties efficiently.
+A comprehensive web-based library management system built with PHP, MySQL, and Bootstrap.  Designed for educational institutions to manage books, borrowers, reservations, and penalties efficiently.
 
 __________________________________________________________________________________________________________________________________________________
 
@@ -112,7 +112,7 @@ Storage: 500MB free space
 
 Recommended Development Environment
 
-XAMPP: Version 8.0.x or higher
+XAMPP: Version 8. 0.x or higher
 
 PHP Extensions: PDO, MySQLi, mbstring, openssl
 
@@ -127,10 +127,13 @@ ________________________________________________________________________________
 Step 1: Download and Extract
 
 Clone the repository or download ZIP
-git clone https://github.com/yourusername/MyLibrary.git
+
+```bash
+git clone https://github. com/yourusername/MyLibrary.git
 
 # OR extract downloaded ZIP to
 C:\xampp\htdocs\MyLibrary
+```
 
 Step 2: Install XAMPP
 
@@ -146,9 +149,11 @@ Open browser and navigate to:
 
 http://localhost/MyLibrary
 
+__________________________________________________________________________________________________________________________________________________
 
-**📁 Project Structure**
+📁 Project Structure
 
+```
 MyLibrary/
 │
 ├── assets/                      # CSS Stylesheets
@@ -175,13 +180,13 @@ MyLibrary/
 │
 ├── includes/                    # Reusable Components
 │   ├── messages.php            # Custom alert messages
-│   └── confirm_modal.php       # Custom confirmation dialogs
+│   └── confirm_modal. php       # Custom confirmation dialogs
 │
 ├── model/                       # Business Logic (Models)
 │   ├── BaseModel.php           # Parent model (inheritance)
 │   ├── User.php                # User authentication model
-│   ├── LibrarianModel.php      # Book management model
-│   ├── StaffModel.php          # Staff operations model
+│   ├── LibrarianModel. php      # Book management model
+│   ├── StaffModel. php          # Staff operations model
 │   └── StudentTeacherModel.php # Student/Teacher operations model
 │
 ├── view/                        # User Interfaces (Views)
@@ -192,8 +197,10 @@ MyLibrary/
 │   ├── Teach_Stud_Dashboard.php # Student/Teacher interface
 │   └── Librarian_Functions/
 │       ├── Add_Book.php        # Add book form
-│       └── Edit_Book.php       # Edit book form
+│       └── Edit_Book. php       # Edit book form
 │
 ├── index.php                    # Entry point (redirects to login)
 └── README.md                    # This file
+```
 
+__________________________________________________________________________________________________________________________________________________
